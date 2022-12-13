@@ -11,7 +11,7 @@ This application contains responsive "Dark and light" Mode setting. You can easi
 [Download Now](https://codeload.github.com/zobayerdev/Dark_and_Light_Mode_Setting/zip/refs/heads/main)
 
 # Contributing
-Your contributions are always welcome! See the [contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
+Your contributions are always welcome!
 
 # License
 BUBT - [Md. Zobayer Hasan Nayem](https://github.com/zobayerdev/)
