@@ -1,4 +1,5 @@
 # Color_Mood_Setting
+This application contains responsive "Dark and light" Mode setting. You can easily use this interface in your applicition login and signup screen or default mainactivity screen. If you need this project download now.
 
 # Made With
 ![forthebadge](https://img.shields.io/badge/Android_Studio-5C2D91?style=for-the-badge&logo=android%20studio&logoColor=white)
