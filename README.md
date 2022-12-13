@@ -26,6 +26,6 @@ BUBT - [Md. Zobayer Hasan Nayem](https://github.com/zobayerdev/)
 
 | DEMO VIDEO (GIF) | Login Day |  Login Dark | 
 | :---:       |    :----:   | :----:   | 
-| <img src="https://user-images.githubusercontent.com/74914169/207235365-ef09ee18-45e5-4c41-8907-bf64580684e0.gif" >       |  <img src="https://user-images.githubusercontent.com/74914169/207235118-71d61a4b-ba9a-4297-8228-bef6ae285b04.jpg" >     |  <img src="https://user-images.githubusercontent.com/74914169/207235191-702b173f-c6d2-4ee5-a565-ef41dfbab950.jpg" >  |
-| Login Day | Login Dark |  Login Day | 
-| <img src="https://user-images.githubusercontent.com/74914169/207235118-71d61a4b-ba9a-4297-8228-bef6ae285b04.jpg" >      |  <img src="https://user-images.githubusercontent.com/74914169/207235191-702b173f-c6d2-4ee5-a565-ef41dfbab950.jpg" >    |  <img src="https://user-images.githubusercontent.com/74914169/207235118-71d61a4b-ba9a-4297-8228-bef6ae285b04.jpg" >  |
+| <img src="https://user-images.githubusercontent.com/74914169/207235365-ef09ee18-45e5-4c41-8907-bf64580684e0.gif" width=80% height=80% >       |  <img src="https://user-images.githubusercontent.com/74914169/207235118-71d61a4b-ba9a-4297-8228-bef6ae285b04.jpg" width=80% height=80%  >     |  <img src="https://user-images.githubusercontent.com/74914169/207235191-702b173f-c6d2-4ee5-a565-ef41dfbab950.jpg" width=80% height=80% >  |
+| Login Day | Login Dark |  Login Day |
+| <img src="https://user-images.githubusercontent.com/74914169/207235118-71d61a4b-ba9a-4297-8228-bef6ae285b04.jpg" width=80% height=80% >      |  <img src="https://user-images.githubusercontent.com/74914169/207235191-702b173f-c6d2-4ee5-a565-ef41dfbab950.jpg" width=80% height=80% >    |  <img src="https://user-images.githubusercontent.com/74914169/207235118-71d61a4b-ba9a-4297-8228-bef6ae285b04.jpg" width=80% height=80% >  |
