@@ -1,4 +1,4 @@
-# Color_Mood_Setting
+# Dark_and_Light_Mode_Setting
 This application contains responsive "Dark and light" Mode setting. You can easily use this interface in your applicition login and signup screen or default mainactivity screen. If you need this project download now.
 
 # Made With
