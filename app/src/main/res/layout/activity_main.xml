@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/night_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/night_bg" />
+
+    <View
+        android:id="@+id/day_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/day_bg" />
+
+    <ImageView
+
+        android:id="@+id/sun"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:src="@drawable/sun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".95" />
+
+
+    <ImageView
+
+        android:id="@+id/moon"
+        android:layout_width="250px"
+        android:layout_height="250px"
+        android:src="@drawable/moon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".95" />
+
+    <ImageView
+        android:id="@+id/night_land"
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:src="@drawable/night_1"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/day_land"
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:src="@drawable/day"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.mahfa.dnswitch.DayNightSwitch
+        android:id="@+id/day_night_switch"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:paddingBottom="10dp"
+        android:inputType="textWebEmailAddress"
+        android:hint="zobayer.hp3@gmail.com"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias=".2"
+        app:layout_constraintWidth_percent=".8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:text="E-mail"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/email_et"
+        app:layout_constraintStart_toStartOf="@+id/email_et" />
+
+
+    <EditText
+        android:id="@+id/pass_et"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/edit_text"
+        android:paddingStart="20dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:inputType="textPassword"
+        android:hint="******"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email_et"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent=".8"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="3dp"
+        android:text="Password"
+        android:fontFamily="@font/ubuntu_medium"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/pass_et"
+        app:layout_constraintStart_toStartOf="@+id/pass_et" />
+
+
+    <Button
+        android:clickable="true"
+        android:text="Log in"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/ubuntu_medium"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass_et"
+        app:layout_constraintVertical_bias="0"
+        app:layout_constraintWidth_percent=".8"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
