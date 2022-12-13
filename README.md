@@ -8,7 +8,7 @@ This application contains responsive "Dark and light" Mode setting. You can easi
 
 
 # Download
-[Download Now](https://codeload.github.com/zobayerdev/Color_Mood_Setting/zip/refs/heads/main)
+[Download Now](https://codeload.github.com/zobayerdev/Dark_and_Light_Mode_Setting/zip/refs/heads/main)
 
 # Contributing
 Your contributions are always welcome! See the [contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
